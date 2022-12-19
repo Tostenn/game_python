@@ -1,9 +1,14 @@
 
 from random import randint
 from os import system
-# effter()
-system('cls')
 
+
+from sys import platform
+# effter()
+def eff():
+    if platform == 'win32':system('cls')
+    else : system('clear')
+eff()
 def verch(choix='',info="",erro = 'valeur innatendu!', deb = 0,fin = 3):
     l= list(range(deb,fin+1))
     veri = True
@@ -39,7 +44,7 @@ def de():
 # def aff():
 
 def aff():
-    system('cls')
+    eff()
     print(f'======================il reste {f"{arr} parties" if arr>1 else f"{arr} partie"} =================')
     f = '='
     print(f"{'==':{f}^50}")
