@@ -61,7 +61,7 @@ while True:
     x = 0;nl = ''
     for i,n in nom_j.items():
 
-        input(i+' appuyer la touche zntrer pour valider : ')
+        input(i+' appuyer la touche entrer pour valider : ')
         d = de()
         print(i,'votre score est',d)
         if x < d:
