@@ -1,6 +1,7 @@
 import os,random,sys,time,json
-import  bot
-nom = input("entrer votre nom : \x1b[32m")
+
+# import  bot
+nom = input("entrer votre nom : ")
 
 if len(nom)== 0 :
 	nom = "joueur"
@@ -17,7 +18,7 @@ if os.path.isfile('data.json'):
 				sr = data[f'user-{nom}']['root']
 
 os.system("cls")
-bot.couleur_1()
+# bot.couleur_1()
 e = f"{'K-C-B-T':-^64}"
 ver = "\x1b[37m";bl = "\x1b[37m";j = "\x1b[36m"
 
@@ -132,16 +133,16 @@ while True :
 					json.dump(data,file)
 
 		if sj > sr:
-			bot.couleur()
+			# bot.couleur()
 			os.system('cls')
 			print(f"""{bl}{e}\nfin du jeu pierre papier ciseaux \n\n\t{bl}score finale : {j}{nom} {sj}{bl} : {sr} root\n\n\t\t victoire de {j}{nom}{bl}\n{e}""")
 		elif sr > sj:
-			bot.couleur_1()
+			# bot.couleur_1()
 			os.system('cls')
 			print(f"""{bl}{e}\nfin du jeu pierre papier ciseaux \n\n\t{bl}score finale : {nom} {sj} : {j}{sr} root{bl}\n\n\t\tvictoire du {j}root {bl}
 {e}""")
 		elif sr == sj:
-			bot.couleur_1()
+			# bot.couleur_1()
 			os.system('cls')
 			print(f"""{bl}{e}\nfin du jeu pierre papier ciseaux \n\n\t{bl}score finale : {nom} {sj} : {sr} root{bl}\n\n\t\t\t \x1b[38;5;{184}mégalite {bl}
 {e}""")

@@ -3,7 +3,7 @@ from os import system
 from random import randint
 def cls(): system('cls')
 def t(x) : sleep(x)
-nom = input(f"\x1b[38;5;{240}mentrer votre nom : ")
+nom = input("entrer votre nom : ")
 if len(nom) == 0:
     nom = 'joueur'
 t(0.2)
@@ -26,6 +26,8 @@ infomation = '''bienvenu dans la section infomation
     - L'option 2 comme sont nom l'indique est une parti libre
         cette partir a etait créer dans le but de vous entrainez a affronter 
         notre IA
+    - Vous pouvez jouer avec les chiffre 1, 2 et 3 qui corresponde aux (pierre, papier et ciseau)
+        ou simplement ecrire les mots mots clés 
 '''
 choix_op = ''
 ppc = ['pierre','papier','ciseaeu']
