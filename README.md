@@ -21,7 +21,8 @@ ce jeu n'a plus besion d'être present contrairement au précédent presenter lu
 <strong >apercu</strong><br>
 <img src="img/ppc.png">
  </p>
-2. second version **ppc_1.1.py **
+ 
+2. second version <strong>ppc_1.1.py</strong>
 <p align="center">
 <strong >apercu</strong><br>
 <img src="https://github.com/Tostenn/game_python/blob/main/img/Capture%20d%E2%80%99%C3%A9cran%202023-01-01%20184635.png">
@@ -30,7 +31,7 @@ ce jeu n'a plus besion d'être present contrairement au précédent presenter lu
 ## **casino**
 
 ce jeux consite a mise pour gagner 
-> je vous en dit pas plus aller le tester `PS : c'est mon préféré`
+> je vous en dit pas plus aller le tester `PS : c'est mon préféré` <br>
 nom du fichier : **jeu.py**
 # **Ce Depot**
 
