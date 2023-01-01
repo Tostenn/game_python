@@ -27,7 +27,7 @@ info = f"""{bl}{e}\nbienvenue dans le jeu pierre papier ciseaux\n
 \t	\x1b[33m1- pierre 
 \t	2- papier	{bl}score : {nom}{j} {sj}{bl} : {j}{sr} {bl}root
 \t	\x1b[33m3- ciseaux
-\x1b[31mNB: choisir avec les  chiffres ou les nom\x1b[37m
+\x1b[31mNB: choisir avec les  chiffres ou les mots clé\x1b[37m
 \t- vous jouez contre le root alors bonne chance
 {e}"""
 print(info)
@@ -110,7 +110,7 @@ while True :
 \t	\x1b[33m1- pierre 
 \t	2- papier	{bl}score : {nom}{j} {sj}{bl} : {j}{sr} {bl}root
 \t	\x1b[33m3- ciseaux
-\x1b[31mNB: choisir avec les  chiffres ou les nom\x1b[37m
+\x1b[31mNB: choisir avec les  chiffres ou les mots clé\x1b[37m
 \t- vous jouez contre le root alors bonne chance
 {e}""")
 	else :
